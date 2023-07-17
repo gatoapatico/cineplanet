@@ -3,6 +3,6 @@
     if(isset($_SESSION['usuario'])){
         echo "enviar a menu";
     } else{
-        header("Location:login.php");
+        header("Location:view/login.php");
     }
 ?>
