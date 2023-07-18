@@ -1,3 +1,5 @@
+<?php if(isset($_SESSION['usuario'])){ $usuario = $_SESSION['usuario']; } ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,11 +26,8 @@
                     <img src="/cineplanet/assets/img/planeta.png" alt="planetas" class="logaso">
                 </div>
                 <nav class="menu">
-                    <a href="#">Inicio</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contacto</a>
-                    <a href="login.html">Cerra Sesion</a>
+                    <label>Bienvenido <?= ($usuario['tipo_id'] == 1) ? "Administrador" : "Cajero" ?>!</label>
+                    <a href="/cineplanet/view/utils/cerrarSesion.php">Cerra Sesion</a>
                 </nav>
             </div>
         </header>
@@ -38,12 +37,9 @@
     <div class="container-menu">
         <div class="cont-menu">
             <nav>
-                <a href="#">Portafolio</a>
-                <a href="#">Servicios</a>
-                <a href="#">Suscribirse</a>
-                <a href="#">Facebook</a>
-                <a href="#">Youtube</a>
-                <a href="#">Instagram</a>
+                <a href="#">SALAS</a>
+                <a href="#">ALMACEN</a>
+                <a href="#">CLIENTES</a>
             </nav>
             <label for="btn-menu">✖️</label>
         </div>

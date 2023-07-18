@@ -10,8 +10,8 @@
         public function login($correo,$password){
             $loginUsuario = $this->model->login($correo,$password);
             if($loginUsuario != false){
-                /* session_start();
-                $_SESSION['usuario'] = $loginUsuario; */
+                session_start();
+                $_SESSION['usuario'] = $loginUsuario;
                 return header("Location:/cineplanet/view/menu.php");
             } else{
                 return header("Location:/cineplanet/view/login.php?id=Invalid");
