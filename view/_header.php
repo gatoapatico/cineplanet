@@ -37,10 +37,11 @@
     <div class="container-menu">
         <div class="cont-menu">
             <nav>
-                <a href="#">SALAS</a>
-                <a href="#">ALMACEN</a>
-                <a href="#">CLIENTES</a>
+                <a href="/cineplanet/view/salas.php">SALAS</a>
+                <a href="/cineplanet/view/almacen.php">ALMACEN</a>
+                <a href="/cineplanet/view/clientes.php">CLIENTES</a>
             </nav>
             <label for="btn-menu">✖️</label>
         </div>
     </div>
+    <div style="margin-top: 150px; margin-left: 100px;">
