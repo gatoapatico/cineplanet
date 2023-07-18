@@ -26,7 +26,7 @@
                     <div class="input-addon">
                         <i class="material-icons">face</i>
                     </div>
-                    <input id="username" name="username" placeholder="Usuario" type="text" required class="validate" autocomplete="off">
+                    <input id="username" name="correo" placeholder="Correo" type="text" required class="validate" autocomplete="off">
                 </div>
                 <div class="input">
                     <div class="input-addon">
@@ -35,6 +35,11 @@
                     <input id="password" name="password" placeholder="Contraseña" type="password" required class="validate" autocomplete="off">
                 </div>
                 <input type="submit" style="margin-top: 30px;" value="Iniciar sesion" />
+                <?php
+                    if(isset($_GET['id']) && $_GET['id'] == "Invalid"){
+                        echo ('<div style="color: white; background-color:#610F0A; border-radius:10px; margin:10px; text-align:center">Usuario o Contraseña Incorrectos</div>');
+                    }
+                ?>
             </form>
         </div>
     </body>
