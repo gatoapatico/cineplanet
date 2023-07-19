@@ -1,9 +1,6 @@
-/* .container-salas{
-    display: flex;
-} */
-
 .sala-section{
-    display: inline-block;
+    position: relative;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin: 50px;
@@ -12,10 +9,10 @@
     background-color: gray;
     border-radius: 25px;
     border: solid 1px white;
+    text-decoration: none;
 }
 
 .numero{
-    position: absolute;
     font-size: 90px;
     color: white;
 }

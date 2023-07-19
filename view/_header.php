@@ -9,6 +9,7 @@
         <meta name="author" content="Alvaro Fernandez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="/cineplanet/assets/css/main.css">
         <style>
             body {
@@ -37,11 +38,11 @@
     <div class="container-menu">
         <div class="cont-menu">
             <nav>
-                <a href="/cineplanet/view/salas.php">SALAS</a>
-                <a href="/cineplanet/view/almacen.php">ALMACEN</a>
-                <a href="/cineplanet/view/clientes.php">CLIENTES</a>
+                <a href="/cineplanet/view/salas/index.php">SALAS</a>
+                <a href="/cineplanet/view/almacen/index.php">ALMACEN</a>
+                <a href="/cineplanet/view/clientes/index.php">CLIENTES</a>
             </nav>
             <label for="btn-menu">✖️</label>
         </div>
     </div>
-    <div style="margin-top: 150px; margin-left: 100px;">
+    <div style="margin-top: 150px; margin-left: 100px; margin-right: 100px;">
