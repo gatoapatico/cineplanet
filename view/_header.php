@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Index</title>
+        <title>Cineplanet</title>
         <meta name="description" content="Cineplanet">
         <meta name="author" content="Alvaro Fernandez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
