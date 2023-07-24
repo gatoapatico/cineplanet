@@ -3,9 +3,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
-    width: 300px;
-    height: 400px;
+    margin: 20px;
+    width: 600px;
+    height: 100px;
     background-color: gray;
     border-radius: 25px;
     border: none;
@@ -19,6 +19,7 @@
   }
 
 .numero{
-    font-size: 90px;
+    font-size: 30px;
     color: #003162;
+    font-weight: bold;
 }

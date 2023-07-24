@@ -17,6 +17,7 @@
         <div class="planeta">
             <img src="/cineplanet/assets/img/planeta.png" alt="planetas" class="planetita">
         </div>
+        
         <div id="container-login" style="margin-top: 20px;">
             <div id="title">
                 <i class="material-icons lock">lock</i> Acceso

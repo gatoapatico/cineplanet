@@ -564,3 +564,80 @@ body{
 .btn-ingreso-libre{
     color: red;
 }
+
+
+/* ESTILOS INSUMOS */
+
+.centered-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imagen-img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 65px;
+}
+
+.text-container {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.text-container h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+
+
+.centered-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 100px;
+  transition: transform 0.5s ease;
+}
+
+.centered-container img:hover {
+  transform: scale(1.2);
+}
+
+.centered-container ul {
+  list-style-type: none;
+  padding: 0;
+  
+  margin-top: 10px;
+}
+
+.centered-container li {
+  font-size: 22px;
+  margin-bottom: 16px;
+  
+}
+
+
+.text-container button {
+  padding: 18px 62px;
+  background-color: #FF9800;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.text-container button:hover {
+  background-color: #FFB74D;
+}
+
+form input[type="submit"]{
+  background-color: #0080ff;
+  color: white;
+}

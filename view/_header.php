@@ -27,8 +27,8 @@
                     <img src="/cineplanet/assets/img/planeta.png" alt="planetas" class="logaso">
                 </div>
                 <nav class="menu">
-                    <label>Bienvenido <?= ($usuario['tipo_id'] == 1) ? "Administrador" : "Cajero" ?>!</label>
-                    <a href="/cineplanet/view/utils/cerrarSesion.php">Cerra Sesion</a>
+                    <a href="/cineplanet/view/menu.php"><label>Bienvenido <?= ($usuario['tipo_id'] == 1) ? "Administrador" : "Cajero" ?>!</label></a>
+                    <a href="/cineplanet/view/utils/cerrarSesion.php">Cerrar Sesion</a>
                 </nav>
             </div>
         </header>
